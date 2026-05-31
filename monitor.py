@@ -13,7 +13,12 @@ DISCORD_USER_ID = os.environ.get("DISCORD_USER_ID", "").strip()
 ZIP_CODE = "91732"
 STATE_FILE = "stock_state.json"
 
-MAX_PAGES_PER_RUN = 35
+# Lower number = faster, less timeout/block.
+# You can change to 15 later if it works well.
+MAX_PAGES_PER_RUN = 10
+
+# Set to False later if you don't want "bot checked" message every run.
+SEND_HEARTBEAT = True
 
 LOCAL_HINTS = [
     "91732",
@@ -90,6 +95,7 @@ BLOCK_TERMS = [
     "no robots allowed",
 ]
 
+# Search terms for many Pokémon products
 SEARCH_TERMS = [
     "pokemon trading cards",
     "pokemon tcg",
@@ -196,8 +202,10 @@ def send_discord(content):
 def build_items():
     items = []
 
-    for store, builder in STORES.items():
-        for term in SEARCH_TERMS:
+    # Important: interleave stores.
+    # This avoids checking only Best Buy first and timing out many times.
+    for term in SEARCH_TERMS:
+        for store, builder in STORES.items():
             items.append({
                 "store": store,
                 "name": term,
@@ -235,7 +243,7 @@ def check_item(item):
     }
 
     try:
-        r = requests.get(item["url"], headers=headers, timeout=30)
+        r = requests.get(item["url"], headers=headers, timeout=20)
         print("HTTP status:", r.status_code)
 
         text = clean_text(r.text)
@@ -337,6 +345,7 @@ def should_alert(old_status, new_status):
     if new_status not in stock_statuses:
         return False
 
+    # First run creates baseline. No spam.
     if old_status is None:
         return False
 
@@ -355,12 +364,29 @@ def main():
 
     print(f"Checking {len(items)} pages near ZIP {ZIP_CODE}")
 
+    checked_count = 0
+    error_count = 0
+    blocked_count = 0
+    possible_count = 0
+    likely_count = 0
+
     for item in items:
         key = make_key(item)
         old_status = state.get(key, {}).get("status")
 
         result = check_item(item)
         new_status = result["status"]
+
+        checked_count += 1
+
+        if new_status == "error":
+            error_count += 1
+        elif new_status == "blocked":
+            blocked_count += 1
+        elif new_status == "possible_stock":
+            possible_count += 1
+        elif new_status == "likely_stock":
+            likely_count += 1
 
         print("Old:", old_status)
         print("New:", new_status)
@@ -403,6 +429,18 @@ def main():
         time.sleep(2)
 
     save_state(state)
+
+    if SEND_HEARTBEAT:
+        heartbeat = (
+            f"✅ **Pokemon bot checked stores near ZIP {ZIP_CODE}**\n"
+            f"Pages checked: {checked_count}\n"
+            f"Likely stock: {likely_count}\n"
+            f"Possible stock: {possible_count}\n"
+            f"Blocked: {blocked_count}\n"
+            f"Errors/timeouts: {error_count}\n"
+            f"Time: {now}"
+        )
+        send_discord(heartbeat)
 
 
 if __name__ == "__main__":

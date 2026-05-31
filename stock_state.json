@@ -1,5 +1,5 @@
 {
-  "_cursor": 35,
+  "_cursor": 45,
   "9690fbba9f74d9460abbe3d085ad0aa3b735101ebb9fcc48cf50ec32b3ffbf28": {
     "store": "Best Buy",
     "name": "pokemon trading cards",
@@ -84,9 +84,9 @@
     "status": "error",
     "confidence": "low",
     "mode": "unknown",
-    "reason": "HTTPSConnectionPool(host='www.bestbuy.com', port=443): Read timed out. (read timeout=30)",
+    "reason": "HTTPSConnectionPool(host='www.bestbuy.com', port=443): Read timed out. (read timeout=20)",
     "signals": [],
-    "last_checked": "2026-05-31T00:01:04.291778+00:00"
+    "last_checked": "2026-05-31T00:33:53.454063+00:00"
   },
   "c989a8657b7a6a412a37d1ac5b6386464b528c587f1179a44a1cbe1837bd4219": {
     "store": "Best Buy",
@@ -95,9 +95,9 @@
     "status": "error",
     "confidence": "low",
     "mode": "unknown",
-    "reason": "HTTPSConnectionPool(host='www.bestbuy.com', port=443): Read timed out. (read timeout=30)",
+    "reason": "HTTPSConnectionPool(host='www.bestbuy.com', port=443): Read timed out. (read timeout=20)",
     "signals": [],
-    "last_checked": "2026-05-31T00:01:04.291778+00:00"
+    "last_checked": "2026-05-31T00:33:53.454063+00:00"
   },
   "7c9e2265b776933988736df4b96c234c78e5c233f07424251f7ee495be29d0b0": {
     "store": "Best Buy",
@@ -384,5 +384,115 @@
     "reason": "HTTPSConnectionPool(host='www.bestbuy.com', port=443): Read timed out. (read timeout=30)",
     "signals": [],
     "last_checked": "2026-05-31T00:01:04.291778+00:00"
+  },
+  "5734965e8ac896e4b476942fd1bf137dba56dddd6631648f9efafa46f8117e4e": {
+    "store": "Target",
+    "name": "pokemon premium collection",
+    "url": "https://www.target.com/s?searchTerm=pokemon+premium+collection",
+    "status": "likely_stock",
+    "confidence": "high",
+    "mode": "online + in-store near 91732",
+    "reason": "Strong stock signals found.",
+    "signals": [
+      "delivery",
+      "pickup"
+    ],
+    "last_checked": "2026-05-31T00:33:53.454063+00:00"
+  },
+  "c62b7c744d9063031e6e4babe69fe1e7dbdf53fe31211f62e738884afb1d02b4": {
+    "store": "Walmart",
+    "name": "pokemon premium collection",
+    "url": "https://www.walmart.com/search?q=pokemon+premium+collection",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "robot"
+    ],
+    "last_checked": "2026-05-31T00:33:53.454063+00:00"
+  },
+  "09be348b0398781456953185ac8d7da2842575b546beaa8514a3f73ed967b3c4": {
+    "store": "Costco",
+    "name": "pokemon premium collection",
+    "url": "https://www.costco.com/CatalogSearch?keyword=pokemon+premium+collection",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "access denied"
+    ],
+    "last_checked": "2026-05-31T00:33:53.454063+00:00"
+  },
+  "659804095620e1ab0600c0d520023eabe565473367b0175b620d71f289046951": {
+    "store": "Sam's Club",
+    "name": "pokemon premium collection",
+    "url": "https://www.samsclub.com/s/pokemon+premium+collection",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "robot",
+      "robots",
+      "no robots allowed"
+    ],
+    "last_checked": "2026-05-31T00:33:53.454063+00:00"
+  },
+  "44e2854a458f075955ce351496148f3789de94dd36239f1ae4d5ee71b2dc43e0": {
+    "store": "Target",
+    "name": "pokemon ultra premium collection",
+    "url": "https://www.target.com/s?searchTerm=pokemon+ultra+premium+collection",
+    "status": "likely_stock",
+    "confidence": "high",
+    "mode": "online + in-store near 91732",
+    "reason": "Strong stock signals found.",
+    "signals": [
+      "delivery",
+      "pickup"
+    ],
+    "last_checked": "2026-05-31T00:33:53.454063+00:00"
+  },
+  "117c5db00d519cea37b62a4f2c8f2a061d36eefaa69b9901cc8f15d5358e876b": {
+    "store": "Walmart",
+    "name": "pokemon ultra premium collection",
+    "url": "https://www.walmart.com/search?q=pokemon+ultra+premium+collection",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "robot"
+    ],
+    "last_checked": "2026-05-31T00:33:53.454063+00:00"
+  },
+  "2ac75a7d2e31aae8c8121014e6a4376e04f610a5dd3ed54f074d0df5103546ea": {
+    "store": "Costco",
+    "name": "pokemon ultra premium collection",
+    "url": "https://www.costco.com/CatalogSearch?keyword=pokemon+ultra+premium+collection",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "access denied"
+    ],
+    "last_checked": "2026-05-31T00:33:53.454063+00:00"
+  },
+  "a0d9fa081b7e523bacf4017cfdd7733a8d0a7c86ce35a8f4912f862ad25cebaa": {
+    "store": "Sam's Club",
+    "name": "pokemon ultra premium collection",
+    "url": "https://www.samsclub.com/s/pokemon+ultra+premium+collection",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "robot",
+      "robots",
+      "no robots allowed"
+    ],
+    "last_checked": "2026-05-31T00:33:53.454063+00:00"
   }
 }

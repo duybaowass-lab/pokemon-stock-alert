@@ -1,5 +1,5 @@
 {
-  "_cursor": 105,
+  "_cursor": 115,
   "9690fbba9f74d9460abbe3d085ad0aa3b735101ebb9fcc48cf50ec32b3ffbf28": {
     "store": "Best Buy",
     "name": "pokemon trading cards",
@@ -238,9 +238,9 @@
     "status": "error",
     "confidence": "low",
     "mode": "unknown",
-    "reason": "HTTPSConnectionPool(host='www.bestbuy.com', port=443): Read timed out. (read timeout=30)",
+    "reason": "HTTPSConnectionPool(host='www.bestbuy.com', port=443): Read timed out. (read timeout=20)",
     "signals": [],
-    "last_checked": "2026-05-31T00:01:04.291778+00:00"
+    "last_checked": "2026-06-02T12:59:27.148398+00:00"
   },
   "a113a6094770bcbdcf55ba476e2f33f7bd19e9befb9bcd347ccd8a33b67a0ae0": {
     "store": "Best Buy",
@@ -249,9 +249,9 @@
     "status": "error",
     "confidence": "low",
     "mode": "unknown",
-    "reason": "HTTPSConnectionPool(host='www.bestbuy.com', port=443): Read timed out. (read timeout=30)",
+    "reason": "HTTPSConnectionPool(host='www.bestbuy.com', port=443): Read timed out. (read timeout=20)",
     "signals": [],
-    "last_checked": "2026-05-31T00:01:04.291778+00:00"
+    "last_checked": "2026-06-02T12:59:27.148398+00:00"
   },
   "9a4b60c8c2b42da141c8242f281a15f76362f8b576def3ce6e1f76fb6ae34805": {
     "store": "Best Buy",
@@ -1154,5 +1154,109 @@
       "no robots allowed"
     ],
     "last_checked": "2026-06-01T23:58:10.109224+00:00"
+  },
+  "50165fd0c886a3d3703b7dcf3b86e05519344703edecd890f0a4a08551860b9c": {
+    "store": "Target",
+    "name": "prismatic evolutions elite trainer box",
+    "url": "https://www.target.com/s?searchTerm=prismatic+evolutions+elite+trainer+box",
+    "status": "unknown",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "No clear Pokemon content found.",
+    "signals": [],
+    "last_checked": "2026-06-02T12:59:27.148398+00:00"
+  },
+  "50f5c1ad613b772ba1263731c01837083a3bfe0ad0ae4effbcf5d574d8d2efd5": {
+    "store": "Walmart",
+    "name": "prismatic evolutions elite trainer box",
+    "url": "https://www.walmart.com/search?q=prismatic+evolutions+elite+trainer+box",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "robot"
+    ],
+    "last_checked": "2026-06-02T12:59:27.148398+00:00"
+  },
+  "c1fde067d7f1df9376f3f8ee657929209a4cd9cbfdeb75443535f46b92ee5849": {
+    "store": "Costco",
+    "name": "prismatic evolutions elite trainer box",
+    "url": "https://www.costco.com/CatalogSearch?keyword=prismatic+evolutions+elite+trainer+box",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "access denied"
+    ],
+    "last_checked": "2026-06-02T12:59:27.148398+00:00"
+  },
+  "cebc10b717a77a2678bae455c9e2428b63a60810035eb087d3d007251a60a3b4": {
+    "store": "Sam's Club",
+    "name": "prismatic evolutions elite trainer box",
+    "url": "https://www.samsclub.com/s/prismatic+evolutions+elite+trainer+box",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "robot",
+      "robots",
+      "no robots allowed"
+    ],
+    "last_checked": "2026-06-02T12:59:27.148398+00:00"
+  },
+  "256514f212a75b798e8cfa1d91970be2cb1d2d3f27e1055b8432b244beb95fc2": {
+    "store": "Target",
+    "name": "prismatic evolutions booster bundle",
+    "url": "https://www.target.com/s?searchTerm=prismatic+evolutions+booster+bundle",
+    "status": "unknown",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "No clear Pokemon content found.",
+    "signals": [],
+    "last_checked": "2026-06-02T12:59:27.148398+00:00"
+  },
+  "01baed1cd1a69320de9ca2f4be9ce91777a09e9527abe99ca0e11ebb74b983f4": {
+    "store": "Walmart",
+    "name": "prismatic evolutions booster bundle",
+    "url": "https://www.walmart.com/search?q=prismatic+evolutions+booster+bundle",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "robot"
+    ],
+    "last_checked": "2026-06-02T12:59:27.148398+00:00"
+  },
+  "53504eb96086531bc755f40ab2f85c1b10ea9ff929a2b4db5095651c54944452": {
+    "store": "Costco",
+    "name": "prismatic evolutions booster bundle",
+    "url": "https://www.costco.com/CatalogSearch?keyword=prismatic+evolutions+booster+bundle",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "access denied"
+    ],
+    "last_checked": "2026-06-02T12:59:27.148398+00:00"
+  },
+  "4cf7d83f8b9cc3361b9359d1a863483fa01b19b7b5b36844054721c111f8bbb6": {
+    "store": "Sam's Club",
+    "name": "prismatic evolutions booster bundle",
+    "url": "https://www.samsclub.com/s/prismatic+evolutions+booster+bundle",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "robot",
+      "robots",
+      "no robots allowed"
+    ],
+    "last_checked": "2026-06-02T12:59:27.148398+00:00"
   }
 }

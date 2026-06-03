@@ -1,5 +1,5 @@
 {
-  "_cursor": 135,
+  "_cursor": 145,
   "9690fbba9f74d9460abbe3d085ad0aa3b735101ebb9fcc48cf50ec32b3ffbf28": {
     "store": "Best Buy",
     "name": "pokemon trading cards",
@@ -304,9 +304,9 @@
     "status": "error",
     "confidence": "low",
     "mode": "unknown",
-    "reason": "HTTPSConnectionPool(host='www.bestbuy.com', port=443): Read timed out. (read timeout=30)",
+    "reason": "HTTPSConnectionPool(host='www.bestbuy.com', port=443): Read timed out. (read timeout=20)",
     "signals": [],
-    "last_checked": "2026-05-31T00:01:04.291778+00:00"
+    "last_checked": "2026-06-03T23:15:04.627526+00:00"
   },
   "7513deb8e780f8f2dad0517373d88e30d19e8f46a61f9aa18c52717ad09aa312": {
     "store": "Best Buy",
@@ -315,9 +315,9 @@
     "status": "error",
     "confidence": "low",
     "mode": "unknown",
-    "reason": "HTTPSConnectionPool(host='www.bestbuy.com', port=443): Read timed out. (read timeout=30)",
+    "reason": "HTTPSConnectionPool(host='www.bestbuy.com', port=443): Read timed out. (read timeout=20)",
     "signals": [],
-    "last_checked": "2026-05-31T00:01:04.291778+00:00"
+    "last_checked": "2026-06-03T23:15:04.627526+00:00"
   },
   "7f86c35dc23c6d43f3f85930f8b9715f35afa9b5a76aea2a56401e746f620db0": {
     "store": "Best Buy",
@@ -1469,5 +1469,112 @@
       "no robots allowed"
     ],
     "last_checked": "2026-06-03T15:57:22.483980+00:00"
+  },
+  "b1eb05e57a6797572a18b18b35951ade22d216f53994ce28db9b62a5e0869569": {
+    "store": "Target",
+    "name": "ascended heroes booster bundle",
+    "url": "https://www.target.com/s?searchTerm=ascended+heroes+booster+bundle",
+    "status": "unknown",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "No clear Pokemon content found.",
+    "signals": [],
+    "last_checked": "2026-06-03T23:15:04.627526+00:00"
+  },
+  "f0a283a71291ffa30bf64984fec6f344d1c59ba80793d2911972ad76d3879e12": {
+    "store": "Walmart",
+    "name": "ascended heroes booster bundle",
+    "url": "https://www.walmart.com/search?q=ascended+heroes+booster+bundle",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "robot"
+    ],
+    "last_checked": "2026-06-03T23:15:04.627526+00:00"
+  },
+  "990b23c0b280654ba2d902941ef7a99ace05f64cb57f031f99b8749e35236874": {
+    "store": "Costco",
+    "name": "ascended heroes booster bundle",
+    "url": "https://www.costco.com/CatalogSearch?keyword=ascended+heroes+booster+bundle",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "access denied"
+    ],
+    "last_checked": "2026-06-03T23:15:04.627526+00:00"
+  },
+  "8e368a86d2260d444fb3f82095db7c14cfb90777f0c394b28325457073a36b03": {
+    "store": "Sam's Club",
+    "name": "ascended heroes booster bundle",
+    "url": "https://www.samsclub.com/s/ascended+heroes+booster+bundle",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "robot",
+      "robots",
+      "no robots allowed"
+    ],
+    "last_checked": "2026-06-03T23:15:04.627526+00:00"
+  },
+  "0b9ea82e0055941692e2547159df3449293aae149408e656c96e4e39670bc2f8": {
+    "store": "Target",
+    "name": "pokemon chaos rising",
+    "url": "https://www.target.com/s?searchTerm=pokemon+chaos+rising",
+    "status": "likely_stock",
+    "confidence": "high",
+    "mode": "online + in-store near 91732",
+    "reason": "Strong stock signals found.",
+    "signals": [
+      "delivery",
+      "pickup"
+    ],
+    "last_checked": "2026-06-03T23:15:04.627526+00:00"
+  },
+  "33ce4a1ef4ab29d607897ac8435c647e02fb4331609ee992c1a1d6121b21073e": {
+    "store": "Walmart",
+    "name": "pokemon chaos rising",
+    "url": "https://www.walmart.com/search?q=pokemon+chaos+rising",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "robot"
+    ],
+    "last_checked": "2026-06-03T23:15:04.627526+00:00"
+  },
+  "4c7fe1b7627cea377854e422b7f1b3542f884767694c7c0c93085ddc6026057d": {
+    "store": "Costco",
+    "name": "pokemon chaos rising",
+    "url": "https://www.costco.com/CatalogSearch?keyword=pokemon+chaos+rising",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "access denied"
+    ],
+    "last_checked": "2026-06-03T23:15:04.627526+00:00"
+  },
+  "01b889613045e68ba3e7bb2bdb31261ff53e97f954056e1b5885be655028e340": {
+    "store": "Sam's Club",
+    "name": "pokemon chaos rising",
+    "url": "https://www.samsclub.com/s/pokemon+chaos+rising",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "robot",
+      "robots",
+      "no robots allowed"
+    ],
+    "last_checked": "2026-06-03T23:15:04.627526+00:00"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "_cursor": 125,
+  "_cursor": 135,
   "9690fbba9f74d9460abbe3d085ad0aa3b735101ebb9fcc48cf50ec32b3ffbf28": {
     "store": "Best Buy",
     "name": "pokemon trading cards",
@@ -282,9 +282,9 @@
     "status": "error",
     "confidence": "low",
     "mode": "unknown",
-    "reason": "HTTPSConnectionPool(host='www.bestbuy.com', port=443): Read timed out. (read timeout=30)",
+    "reason": "HTTPSConnectionPool(host='www.bestbuy.com', port=443): Read timed out. (read timeout=20)",
     "signals": [],
-    "last_checked": "2026-05-31T00:01:04.291778+00:00"
+    "last_checked": "2026-06-03T15:57:22.483980+00:00"
   },
   "293c0e10cf94b2dfd7b6de3115891463e2b8f73a8becad48c92a873af2d31078": {
     "store": "Best Buy",
@@ -293,9 +293,9 @@
     "status": "error",
     "confidence": "low",
     "mode": "unknown",
-    "reason": "HTTPSConnectionPool(host='www.bestbuy.com', port=443): Read timed out. (read timeout=30)",
+    "reason": "HTTPSConnectionPool(host='www.bestbuy.com', port=443): Read timed out. (read timeout=20)",
     "signals": [],
-    "last_checked": "2026-05-31T00:01:04.291778+00:00"
+    "last_checked": "2026-06-03T15:57:22.483980+00:00"
   },
   "39d2a8d762853764f1c34fe04f6f2e0721e7ac223717d2c7701acf8c7d04b934": {
     "store": "Best Buy",
@@ -1362,5 +1362,112 @@
       "no robots allowed"
     ],
     "last_checked": "2026-06-02T22:13:17.409885+00:00"
+  },
+  "d129efeba4faf463a05490f706809d9e4474d5cdde9ad0b0a7e9d22e6ba6f433": {
+    "store": "Target",
+    "name": "pokemon ascended heroes",
+    "url": "https://www.target.com/s?searchTerm=pokemon+ascended+heroes",
+    "status": "likely_stock",
+    "confidence": "high",
+    "mode": "online + in-store near 91732",
+    "reason": "Strong stock signals found.",
+    "signals": [
+      "delivery",
+      "pickup"
+    ],
+    "last_checked": "2026-06-03T15:57:22.483980+00:00"
+  },
+  "773258f3cdb69096f2f35190e17237b2f09558a0da3057eeafa642bf320c4eaf": {
+    "store": "Walmart",
+    "name": "pokemon ascended heroes",
+    "url": "https://www.walmart.com/search?q=pokemon+ascended+heroes",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "robot"
+    ],
+    "last_checked": "2026-06-03T15:57:22.483980+00:00"
+  },
+  "f0758b7218d825fb90d213a7f65d918a6f813afd0df208ca25ad648e511f05a2": {
+    "store": "Costco",
+    "name": "pokemon ascended heroes",
+    "url": "https://www.costco.com/CatalogSearch?keyword=pokemon+ascended+heroes",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "access denied"
+    ],
+    "last_checked": "2026-06-03T15:57:22.483980+00:00"
+  },
+  "6ef83364f6c2f91f61fff08fac0815792bc28a0507edf0b0a039317a8f903d98": {
+    "store": "Sam's Club",
+    "name": "pokemon ascended heroes",
+    "url": "https://www.samsclub.com/s/pokemon+ascended+heroes",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "robot",
+      "robots",
+      "no robots allowed"
+    ],
+    "last_checked": "2026-06-03T15:57:22.483980+00:00"
+  },
+  "3d435c0e85deb4add9e7485af71cbfee2997c1d9c812d20f1177b65f4298ef18": {
+    "store": "Target",
+    "name": "ascended heroes elite trainer box",
+    "url": "https://www.target.com/s?searchTerm=ascended+heroes+elite+trainer+box",
+    "status": "unknown",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "No clear Pokemon content found.",
+    "signals": [],
+    "last_checked": "2026-06-03T15:57:22.483980+00:00"
+  },
+  "d306d288db07c1b12ec38aeb34cd08ba7dc714f3e8698555f6c9802eac5ed7fe": {
+    "store": "Walmart",
+    "name": "ascended heroes elite trainer box",
+    "url": "https://www.walmart.com/search?q=ascended+heroes+elite+trainer+box",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "robot"
+    ],
+    "last_checked": "2026-06-03T15:57:22.483980+00:00"
+  },
+  "42213c6727c569a1152da7f38b51206252b11e56683bb12c15c96c098a289a95": {
+    "store": "Costco",
+    "name": "ascended heroes elite trainer box",
+    "url": "https://www.costco.com/CatalogSearch?keyword=ascended+heroes+elite+trainer+box",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "access denied"
+    ],
+    "last_checked": "2026-06-03T15:57:22.483980+00:00"
+  },
+  "083776c5004ab5b18fcc1c2c8122fa4b1ecdd0cdaa9cd8559c1be80d097af3e2": {
+    "store": "Sam's Club",
+    "name": "ascended heroes elite trainer box",
+    "url": "https://www.samsclub.com/s/ascended+heroes+elite+trainer+box",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "robot",
+      "robots",
+      "no robots allowed"
+    ],
+    "last_checked": "2026-06-03T15:57:22.483980+00:00"
   }
 }

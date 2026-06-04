@@ -1,5 +1,5 @@
 {
-  "_cursor": 155,
+  "_cursor": 165,
   "9690fbba9f74d9460abbe3d085ad0aa3b735101ebb9fcc48cf50ec32b3ffbf28": {
     "store": "Best Buy",
     "name": "pokemon trading cards",
@@ -348,9 +348,9 @@
     "status": "error",
     "confidence": "low",
     "mode": "unknown",
-    "reason": "HTTPSConnectionPool(host='www.bestbuy.com', port=443): Read timed out. (read timeout=30)",
+    "reason": "HTTPSConnectionPool(host='www.bestbuy.com', port=443): Read timed out. (read timeout=20)",
     "signals": [],
-    "last_checked": "2026-05-31T00:01:04.291778+00:00"
+    "last_checked": "2026-06-04T18:36:18.090293+00:00"
   },
   "836af290eba93448f3aa00a26df16d000f8228bed142307266ad92d5216010cc": {
     "store": "Best Buy",
@@ -359,9 +359,9 @@
     "status": "error",
     "confidence": "low",
     "mode": "unknown",
-    "reason": "HTTPSConnectionPool(host='www.bestbuy.com', port=443): Read timed out. (read timeout=30)",
+    "reason": "HTTPSConnectionPool(host='www.bestbuy.com', port=443): Read timed out. (read timeout=20)",
     "signals": [],
-    "last_checked": "2026-05-31T00:01:04.291778+00:00"
+    "last_checked": "2026-06-04T18:36:18.090293+00:00"
   },
   "c0b49653e4c24a46aaa13b916cab8dafbb1951116d67204e9a082884d955d905": {
     "store": "Best Buy",
@@ -1680,5 +1680,112 @@
       "no robots allowed"
     ],
     "last_checked": "2026-06-04T10:51:37.487526+00:00"
+  },
+  "e32dba28d3bd698d5df47d0830e8feea89e4e49e03744dd37b0e6c7fb18a2772": {
+    "store": "Target",
+    "name": "mega evolution chaos rising",
+    "url": "https://www.target.com/s?searchTerm=mega+evolution+chaos+rising",
+    "status": "unknown",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "No clear Pokemon content found.",
+    "signals": [],
+    "last_checked": "2026-06-04T18:36:18.090293+00:00"
+  },
+  "c4ce217d582332404b4b30cc2e4da7fe13be0cd47db965fd3b5e1b5bd5e8a4e3": {
+    "store": "Walmart",
+    "name": "mega evolution chaos rising",
+    "url": "https://www.walmart.com/search?q=mega+evolution+chaos+rising",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "robot"
+    ],
+    "last_checked": "2026-06-04T18:36:18.090293+00:00"
+  },
+  "e94c6e8490c94bd25799c48c87878cfa95fd366a4ff72333f40330f01567a472": {
+    "store": "Costco",
+    "name": "mega evolution chaos rising",
+    "url": "https://www.costco.com/CatalogSearch?keyword=mega+evolution+chaos+rising",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "access denied"
+    ],
+    "last_checked": "2026-06-04T18:36:18.090293+00:00"
+  },
+  "17540ea6068001718345f68988f1dd6eb8c78f439a33300026080cd68e1fad1d": {
+    "store": "Sam's Club",
+    "name": "mega evolution chaos rising",
+    "url": "https://www.samsclub.com/s/mega+evolution+chaos+rising",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "robot",
+      "robots",
+      "no robots allowed"
+    ],
+    "last_checked": "2026-06-04T18:36:18.090293+00:00"
+  },
+  "8f0f243cb48c741b7b30fecf7095da2a1cf21d9b5b7629ee752d9abfeffd0295": {
+    "store": "Target",
+    "name": "pokemon 151",
+    "url": "https://www.target.com/s?searchTerm=pokemon+151",
+    "status": "likely_stock",
+    "confidence": "high",
+    "mode": "online + in-store near 91732",
+    "reason": "Strong stock signals found.",
+    "signals": [
+      "delivery",
+      "pickup"
+    ],
+    "last_checked": "2026-06-04T18:36:18.090293+00:00"
+  },
+  "5225a725bb631f50c6fba188c24ef730042ba5b1db455daf329799ca0e1f5659": {
+    "store": "Walmart",
+    "name": "pokemon 151",
+    "url": "https://www.walmart.com/search?q=pokemon+151",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "robot"
+    ],
+    "last_checked": "2026-06-04T18:36:18.090293+00:00"
+  },
+  "d9c597de302708c823adacb666e32308ac9196ffe32c60da21291f3ec5635da1": {
+    "store": "Costco",
+    "name": "pokemon 151",
+    "url": "https://www.costco.com/CatalogSearch?keyword=pokemon+151",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "access denied"
+    ],
+    "last_checked": "2026-06-04T18:36:18.090293+00:00"
+  },
+  "05751a097c24d7e64cc8e934462a08e16292324f6bae15cd3bff746871f6d97f": {
+    "store": "Sam's Club",
+    "name": "pokemon 151",
+    "url": "https://www.samsclub.com/s/pokemon+151",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "robot",
+      "robots",
+      "no robots allowed"
+    ],
+    "last_checked": "2026-06-04T18:36:18.090293+00:00"
   }
 }

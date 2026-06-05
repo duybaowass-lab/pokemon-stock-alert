@@ -1,5 +1,5 @@
 {
-  "_cursor": 175,
+  "_cursor": 185,
   "9690fbba9f74d9460abbe3d085ad0aa3b735101ebb9fcc48cf50ec32b3ffbf28": {
     "store": "Best Buy",
     "name": "pokemon trading cards",
@@ -1897,5 +1897,137 @@
       "no robots allowed"
     ],
     "last_checked": "2026-06-04T22:57:14.280164+00:00"
+  },
+  "19ac950673383fdec124fc36f446819880dc6d4cba445591d3baa54994224c6e": {
+    "store": "Best Buy",
+    "name": "pokemon journey together",
+    "url": "https://www.bestbuy.com/site/searchpage.jsp?st=pokemon+journey+together&loc=91732",
+    "status": "error",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "HTTPSConnectionPool(host='www.bestbuy.com', port=443): Read timed out. (read timeout=20)",
+    "signals": [],
+    "last_checked": "2026-06-05T11:39:08.298400+00:00"
+  },
+  "513f3cd2edfa5a10b3236890fbabf66ffb3d15dc643b76863c6ae62dd13d2aba": {
+    "store": "Target",
+    "name": "pokemon journey together",
+    "url": "https://www.target.com/s?searchTerm=pokemon+journey+together",
+    "status": "likely_stock",
+    "confidence": "high",
+    "mode": "online + in-store near 91732",
+    "reason": "Strong stock signals found.",
+    "signals": [
+      "delivery",
+      "pickup"
+    ],
+    "last_checked": "2026-06-05T11:39:08.298400+00:00"
+  },
+  "666b865acfe9aa56b0ab1f173805ec8fdc19a7181c93e200aa50226dac7e6106": {
+    "store": "Walmart",
+    "name": "pokemon journey together",
+    "url": "https://www.walmart.com/search?q=pokemon+journey+together",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "robot"
+    ],
+    "last_checked": "2026-06-05T11:39:08.298400+00:00"
+  },
+  "a7ded00337835412c3b6648aa4668ac3d56e6508d83311fa71ef540e4874d83e": {
+    "store": "Costco",
+    "name": "pokemon journey together",
+    "url": "https://www.costco.com/CatalogSearch?keyword=pokemon+journey+together",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "access denied"
+    ],
+    "last_checked": "2026-06-05T11:39:08.298400+00:00"
+  },
+  "6ddec4edb50a28aa5bb74e9a16542056c142762f6066e6b25cd2992d3b4bd3bb": {
+    "store": "Sam's Club",
+    "name": "pokemon journey together",
+    "url": "https://www.samsclub.com/s/pokemon+journey+together",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "robot",
+      "robots",
+      "no robots allowed"
+    ],
+    "last_checked": "2026-06-05T11:39:08.298400+00:00"
+  },
+  "dd2a9c8732ae0abfed81416712863ee0e7f42ed64e4208c2b5e1274a4050a8fa": {
+    "store": "Best Buy",
+    "name": "pokemon destined rivals",
+    "url": "https://www.bestbuy.com/site/searchpage.jsp?st=pokemon+destined+rivals&loc=91732",
+    "status": "error",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "HTTPSConnectionPool(host='www.bestbuy.com', port=443): Read timed out. (read timeout=20)",
+    "signals": [],
+    "last_checked": "2026-06-05T11:39:08.298400+00:00"
+  },
+  "e7d1b1da5301bc88d4455a0561fb2f4a9578dfa03c225bf07e8f1727ffd94835": {
+    "store": "Target",
+    "name": "pokemon destined rivals",
+    "url": "https://www.target.com/s?searchTerm=pokemon+destined+rivals",
+    "status": "likely_stock",
+    "confidence": "high",
+    "mode": "online + in-store near 91732",
+    "reason": "Strong stock signals found.",
+    "signals": [
+      "delivery",
+      "pickup"
+    ],
+    "last_checked": "2026-06-05T11:39:08.298400+00:00"
+  },
+  "57e72663d8a22313c889dceb6043b0f1caf282ed61a9dc8f34694a06580bc2d5": {
+    "store": "Walmart",
+    "name": "pokemon destined rivals",
+    "url": "https://www.walmart.com/search?q=pokemon+destined+rivals",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "robot"
+    ],
+    "last_checked": "2026-06-05T11:39:08.298400+00:00"
+  },
+  "dd2ae76f06879b44eca721f896fc1b440198194d61cb5b909d9a2f643e591233": {
+    "store": "Costco",
+    "name": "pokemon destined rivals",
+    "url": "https://www.costco.com/CatalogSearch?keyword=pokemon+destined+rivals",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "access denied"
+    ],
+    "last_checked": "2026-06-05T11:39:08.298400+00:00"
+  },
+  "995461b97ee82f8ecb4fb367141983871400063449708e80d9e6a8c607a90270": {
+    "store": "Sam's Club",
+    "name": "pokemon destined rivals",
+    "url": "https://www.samsclub.com/s/pokemon+destined+rivals",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "robot",
+      "robots",
+      "no robots allowed"
+    ],
+    "last_checked": "2026-06-05T11:39:08.298400+00:00"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "_cursor": 15,
+  "_cursor": 25,
   "9690fbba9f74d9460abbe3d085ad0aa3b735101ebb9fcc48cf50ec32b3ffbf28": {
     "store": "Best Buy",
     "name": "pokemon trading cards",
@@ -40,9 +40,9 @@
     "status": "error",
     "confidence": "low",
     "mode": "unknown",
-    "reason": "HTTPSConnectionPool(host='www.bestbuy.com', port=443): Read timed out. (read timeout=30)",
+    "reason": "HTTPSConnectionPool(host='www.bestbuy.com', port=443): Read timed out. (read timeout=20)",
     "signals": [],
-    "last_checked": "2026-05-31T00:01:04.291778+00:00"
+    "last_checked": "2026-06-06T16:18:23.337389+00:00"
   },
   "5cb21dc8ba98d2aef3ddf05796f05c61ab44176c1559fc8ddc98ecd50a0fe906": {
     "store": "Best Buy",
@@ -51,9 +51,9 @@
     "status": "error",
     "confidence": "low",
     "mode": "unknown",
-    "reason": "HTTPSConnectionPool(host='www.bestbuy.com', port=443): Read timed out. (read timeout=30)",
+    "reason": "HTTPSConnectionPool(host='www.bestbuy.com', port=443): Read timed out. (read timeout=20)",
     "signals": [],
-    "last_checked": "2026-05-31T00:01:04.291778+00:00"
+    "last_checked": "2026-06-06T16:18:23.337389+00:00"
   },
   "49cfc13cd2d8a6c8b547d91b155db2ea973d76fa0481628697e85c0d11205d34": {
     "store": "Best Buy",
@@ -2524,5 +2524,115 @@
       "no robots allowed"
     ],
     "last_checked": "2026-06-06T12:15:23.461885+00:00"
+  },
+  "8c83a14e31f1a57be283bfada49e862e8230d1c0488017b95a643e8b95fa7822": {
+    "store": "Target",
+    "name": "pokemon elite trainer box",
+    "url": "https://www.target.com/s?searchTerm=pokemon+elite+trainer+box",
+    "status": "likely_stock",
+    "confidence": "high",
+    "mode": "online + in-store near 91732",
+    "reason": "Strong stock signals found.",
+    "signals": [
+      "delivery",
+      "pickup"
+    ],
+    "last_checked": "2026-06-06T16:18:23.337389+00:00"
+  },
+  "39051e9480be9fb3c1d9db8029fdfce0320eafe829b71acd59e3be687bbe50fc": {
+    "store": "Walmart",
+    "name": "pokemon elite trainer box",
+    "url": "https://www.walmart.com/search?q=pokemon+elite+trainer+box",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "robot"
+    ],
+    "last_checked": "2026-06-06T16:18:23.337389+00:00"
+  },
+  "20a05c4f600e548c73df1ae413b0aeb1255aef67aac9ef4271b3185595879bf3": {
+    "store": "Costco",
+    "name": "pokemon elite trainer box",
+    "url": "https://www.costco.com/CatalogSearch?keyword=pokemon+elite+trainer+box",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "access denied"
+    ],
+    "last_checked": "2026-06-06T16:18:23.337389+00:00"
+  },
+  "ce7bf7cadb97fc2d52945d1b3ff7c10d0130444a99603294c4a96bb636a28be2": {
+    "store": "Sam's Club",
+    "name": "pokemon elite trainer box",
+    "url": "https://www.samsclub.com/s/pokemon+elite+trainer+box",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "robot",
+      "robots",
+      "no robots allowed"
+    ],
+    "last_checked": "2026-06-06T16:18:23.337389+00:00"
+  },
+  "1fef2378c80167c41e74e929a5094fe4c49d566abd22a69e7831f44d7a1f5f38": {
+    "store": "Target",
+    "name": "pokemon booster bundle",
+    "url": "https://www.target.com/s?searchTerm=pokemon+booster+bundle",
+    "status": "likely_stock",
+    "confidence": "high",
+    "mode": "online + in-store near 91732",
+    "reason": "Strong stock signals found.",
+    "signals": [
+      "delivery",
+      "pickup"
+    ],
+    "last_checked": "2026-06-06T16:18:23.337389+00:00"
+  },
+  "5a3f13b90cd71a62b2e87c361386dc3bdc0df005a38805f14a023605d7e75e2c": {
+    "store": "Walmart",
+    "name": "pokemon booster bundle",
+    "url": "https://www.walmart.com/search?q=pokemon+booster+bundle",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "robot"
+    ],
+    "last_checked": "2026-06-06T16:18:23.337389+00:00"
+  },
+  "5b64dc18880b6e1c0b5ab41e381e44a01d0c3f3ca8817571be062038c7523a11": {
+    "store": "Costco",
+    "name": "pokemon booster bundle",
+    "url": "https://www.costco.com/CatalogSearch?keyword=pokemon+booster+bundle",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "access denied"
+    ],
+    "last_checked": "2026-06-06T16:18:23.337389+00:00"
+  },
+  "f9a573ce60ab13f7f719de8d755f532a1b717e5304ca7f3f8e2a030b07dbb77f": {
+    "store": "Sam's Club",
+    "name": "pokemon booster bundle",
+    "url": "https://www.samsclub.com/s/pokemon+booster+bundle",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "robot",
+      "robots",
+      "no robots allowed"
+    ],
+    "last_checked": "2026-06-06T16:18:23.337389+00:00"
   }
 }

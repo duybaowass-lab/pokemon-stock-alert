@@ -1,5 +1,5 @@
 {
-  "_cursor": 5,
+  "_cursor": 15,
   "9690fbba9f74d9460abbe3d085ad0aa3b735101ebb9fcc48cf50ec32b3ffbf28": {
     "store": "Best Buy",
     "name": "pokemon trading cards",
@@ -18,9 +18,9 @@
     "status": "error",
     "confidence": "low",
     "mode": "unknown",
-    "reason": "HTTPSConnectionPool(host='www.bestbuy.com', port=443): Read timed out. (read timeout=30)",
+    "reason": "HTTPSConnectionPool(host='www.bestbuy.com', port=443): Read timed out. (read timeout=20)",
     "signals": [],
-    "last_checked": "2026-05-31T00:01:04.291778+00:00"
+    "last_checked": "2026-06-06T12:15:23.461885+00:00"
   },
   "314656cacdbff5362994b7a101ebd6f21aa40111f5b2b3c21caf64ca61abc923": {
     "store": "Best Buy",
@@ -29,9 +29,9 @@
     "status": "error",
     "confidence": "low",
     "mode": "unknown",
-    "reason": "HTTPSConnectionPool(host='www.bestbuy.com', port=443): Read timed out. (read timeout=30)",
+    "reason": "HTTPSConnectionPool(host='www.bestbuy.com', port=443): Read timed out. (read timeout=20)",
     "signals": [],
-    "last_checked": "2026-05-31T00:01:04.291778+00:00"
+    "last_checked": "2026-06-06T12:15:23.461885+00:00"
   },
   "6659549b7c6b27a07f7c2afb953da0fb99f0abf98771099b3dccb6b3b792d96c": {
     "store": "Best Buy",
@@ -2414,5 +2414,115 @@
       "no robots allowed"
     ],
     "last_checked": "2026-06-06T08:16:06.300889+00:00"
+  },
+  "933a00bb553d52761b18272e3ece7b10213758f70bbe062b8b183349cfe3b348": {
+    "store": "Target",
+    "name": "pokemon tcg",
+    "url": "https://www.target.com/s?searchTerm=pokemon+tcg",
+    "status": "likely_stock",
+    "confidence": "high",
+    "mode": "online + in-store near 91732",
+    "reason": "Strong stock signals found.",
+    "signals": [
+      "delivery",
+      "pickup"
+    ],
+    "last_checked": "2026-06-06T12:15:23.461885+00:00"
+  },
+  "ea6e5bd34f48b3ef98baf9c8156520356847acd5f0678bfcce209de22620171f": {
+    "store": "Walmart",
+    "name": "pokemon tcg",
+    "url": "https://www.walmart.com/search?q=pokemon+tcg",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "robot"
+    ],
+    "last_checked": "2026-06-06T12:15:23.461885+00:00"
+  },
+  "c731962d0558c730e2ccdafcc2a93e0e5153377cd4597b0b33c7af052510c85e": {
+    "store": "Costco",
+    "name": "pokemon tcg",
+    "url": "https://www.costco.com/CatalogSearch?keyword=pokemon+tcg",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "access denied"
+    ],
+    "last_checked": "2026-06-06T12:15:23.461885+00:00"
+  },
+  "80f42cbb92c8f414a3a3b317c7693c52788b6d6b23572a4fa937bf5a0e6b1912": {
+    "store": "Sam's Club",
+    "name": "pokemon tcg",
+    "url": "https://www.samsclub.com/s/pokemon+tcg",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "robot",
+      "robots",
+      "no robots allowed"
+    ],
+    "last_checked": "2026-06-06T12:15:23.461885+00:00"
+  },
+  "da37c46f49f40a9dd1f6dacfbf6577c3688bc530c461c4cae06a226430c07dad": {
+    "store": "Target",
+    "name": "pokemon cards",
+    "url": "https://www.target.com/s?searchTerm=pokemon+cards",
+    "status": "likely_stock",
+    "confidence": "high",
+    "mode": "online + in-store near 91732",
+    "reason": "Strong stock signals found.",
+    "signals": [
+      "delivery",
+      "pickup"
+    ],
+    "last_checked": "2026-06-06T12:15:23.461885+00:00"
+  },
+  "8e1f55c8bc41c5621596a159079b2384701accc5592464307d3a00820e0987ae": {
+    "store": "Walmart",
+    "name": "pokemon cards",
+    "url": "https://www.walmart.com/search?q=pokemon+cards",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "robot"
+    ],
+    "last_checked": "2026-06-06T12:15:23.461885+00:00"
+  },
+  "7bd7e7af46430b59e88f9f12d011c4ea3ea87b2738a6d361076ae24ce4e78981": {
+    "store": "Costco",
+    "name": "pokemon cards",
+    "url": "https://www.costco.com/CatalogSearch?keyword=pokemon+cards",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "access denied"
+    ],
+    "last_checked": "2026-06-06T12:15:23.461885+00:00"
+  },
+  "150e1480f5e975cedb59cd1e2d47a47a9bc8cd7f8d6f7914656241a3598ac4b6": {
+    "store": "Sam's Club",
+    "name": "pokemon cards",
+    "url": "https://www.samsclub.com/s/pokemon+cards",
+    "status": "blocked",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "Store blocked or challenged request.",
+    "signals": [
+      "robot",
+      "robots",
+      "no robots allowed"
+    ],
+    "last_checked": "2026-06-06T12:15:23.461885+00:00"
   }
 }

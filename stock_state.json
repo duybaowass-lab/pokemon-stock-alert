@@ -1,5 +1,5 @@
 {
-  "_cursor": 75,
+  "_cursor": 85,
   "9690fbba9f74d9460abbe3d085ad0aa3b735101ebb9fcc48cf50ec32b3ffbf28": {
     "store": "Best Buy",
     "name": "pokemon trading cards",
@@ -174,7 +174,7 @@
     "mode": "unknown",
     "reason": "HTTPSConnectionPool(host='www.bestbuy.com', port=443): Read timed out. (read timeout=20)",
     "signals": [],
-    "last_checked": "2026-06-08T14:38:34.493504+00:00"
+    "last_checked": "2026-06-16T22:57:12.514870+00:00"
   },
   "954fee1fca4bf5dfab276bf49c27231add373f869172d7afc3f7265346babc32": {
     "store": "Best Buy",
@@ -185,7 +185,7 @@
     "mode": "unknown",
     "reason": "HTTPSConnectionPool(host='www.bestbuy.com', port=443): Read timed out. (read timeout=20)",
     "signals": [],
-    "last_checked": "2026-06-08T14:38:34.493504+00:00"
+    "last_checked": "2026-06-16T22:57:12.514870+00:00"
   },
   "e33fbfb7ff79a587502c9ccf47eae0b837c6fff4a864fcab371236e913d1f8b1": {
     "store": "Best Buy",
@@ -805,15 +805,12 @@
     "store": "Target",
     "name": "pokemon build and battle",
     "url": "https://www.target.com/s?searchTerm=pokemon+build+and+battle",
-    "status": "likely_stock",
-    "confidence": "high",
-    "mode": "online + in-store near 91732",
-    "reason": "Strong stock signals found.",
-    "signals": [
-      "delivery",
-      "pickup"
-    ],
-    "last_checked": "2026-06-08T14:38:34.493504+00:00"
+    "status": "unknown",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "No clear Pokemon content found.",
+    "signals": [],
+    "last_checked": "2026-06-16T22:57:12.514870+00:00"
   },
   "368f63f48dda07832a8dc24174dd1940f57d9124e27cb7a795c2dcd63815afae": {
     "store": "Walmart",
@@ -826,7 +823,7 @@
     "signals": [
       "robot"
     ],
-    "last_checked": "2026-06-08T14:38:34.493504+00:00"
+    "last_checked": "2026-06-16T22:57:12.514870+00:00"
   },
   "24ef38342670b46018d46e33f5c6db96455158adf68b59f42a030ccbb6b8c767": {
     "store": "Costco",
@@ -839,7 +836,7 @@
     "signals": [
       "access denied"
     ],
-    "last_checked": "2026-06-08T14:38:34.493504+00:00"
+    "last_checked": "2026-06-16T22:57:12.514870+00:00"
   },
   "69e8f476df1d91eae5b1adaea1c059aac4ff98b69ae6c5152095d9566f04e92d": {
     "store": "Sam's Club",
@@ -854,21 +851,18 @@
       "robots",
       "no robots allowed"
     ],
-    "last_checked": "2026-06-08T14:38:34.493504+00:00"
+    "last_checked": "2026-06-16T22:57:12.514870+00:00"
   },
   "fd75c0ef0acadcedf36054547a219f019db8e22d658f575628c9768caa925503": {
     "store": "Target",
     "name": "pokemon binder collection",
     "url": "https://www.target.com/s?searchTerm=pokemon+binder+collection",
-    "status": "likely_stock",
-    "confidence": "high",
-    "mode": "online + in-store near 91732",
-    "reason": "Strong stock signals found.",
-    "signals": [
-      "delivery",
-      "pickup"
-    ],
-    "last_checked": "2026-06-08T14:38:34.493504+00:00"
+    "status": "unknown",
+    "confidence": "low",
+    "mode": "unknown",
+    "reason": "No clear Pokemon content found.",
+    "signals": [],
+    "last_checked": "2026-06-16T22:57:12.514870+00:00"
   },
   "6d0b0e4245700fb20aba9c51b9ff05dc4840c445c704a6a3adf81d91e1d2de1b": {
     "store": "Walmart",
@@ -881,7 +875,7 @@
     "signals": [
       "robot"
     ],
-    "last_checked": "2026-06-08T14:38:34.493504+00:00"
+    "last_checked": "2026-06-16T22:57:12.514870+00:00"
   },
   "341fc18ea07f80ed1f0a27fa7cdd0a198837af348a0153334c402c9fa9fac3bf": {
     "store": "Costco",
@@ -894,7 +888,7 @@
     "signals": [
       "access denied"
     ],
-    "last_checked": "2026-06-08T14:38:34.493504+00:00"
+    "last_checked": "2026-06-16T22:57:12.514870+00:00"
   },
   "22e88ed349023b31bd8eafc77d9e0e6144884854f2eae202e61a7a76d45ddbc9": {
     "store": "Sam's Club",
@@ -909,7 +903,7 @@
       "robots",
       "no robots allowed"
     ],
-    "last_checked": "2026-06-08T14:38:34.493504+00:00"
+    "last_checked": "2026-06-16T22:57:12.514870+00:00"
   },
   "9a7d1f6dd33269c739b6ff665311bfada4c0143b19c399f1145650b855e3eb9c": {
     "store": "Target",

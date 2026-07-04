@@ -1,5 +1,5 @@
 {
-  "_cursor": 105,
+  "_cursor": 115,
   "9690fbba9f74d9460abbe3d085ad0aa3b735101ebb9fcc48cf50ec32b3ffbf28": {
     "store": "Best Buy",
     "name": "pokemon trading cards",
@@ -240,7 +240,7 @@
     "mode": "unknown",
     "reason": "HTTPSConnectionPool(host='www.bestbuy.com', port=443): Read timed out. (read timeout=20)",
     "signals": [],
-    "last_checked": "2026-07-02T20:06:15.764794+00:00"
+    "last_checked": "2026-07-04T10:59:24.868151+00:00"
   },
   "a113a6094770bcbdcf55ba476e2f33f7bd19e9befb9bcd347ccd8a33b67a0ae0": {
     "store": "Best Buy",
@@ -251,7 +251,7 @@
     "mode": "unknown",
     "reason": "HTTPSConnectionPool(host='www.bestbuy.com', port=443): Read timed out. (read timeout=20)",
     "signals": [],
-    "last_checked": "2026-07-02T20:06:15.764794+00:00"
+    "last_checked": "2026-07-04T10:59:24.868151+00:00"
   },
   "9a4b60c8c2b42da141c8242f281a15f76362f8b576def3ce6e1f76fb6ae34805": {
     "store": "Best Buy",
@@ -1122,7 +1122,7 @@
     "mode": "unknown",
     "reason": "No clear Pokemon content found.",
     "signals": [],
-    "last_checked": "2026-07-02T20:06:15.764794+00:00"
+    "last_checked": "2026-07-04T10:59:24.868151+00:00"
   },
   "50f5c1ad613b772ba1263731c01837083a3bfe0ad0ae4effbcf5d574d8d2efd5": {
     "store": "Walmart",
@@ -1135,7 +1135,7 @@
     "signals": [
       "robot"
     ],
-    "last_checked": "2026-07-02T20:06:15.764794+00:00"
+    "last_checked": "2026-07-04T10:59:24.868151+00:00"
   },
   "c1fde067d7f1df9376f3f8ee657929209a4cd9cbfdeb75443535f46b92ee5849": {
     "store": "Costco",
@@ -1148,7 +1148,7 @@
     "signals": [
       "access denied"
     ],
-    "last_checked": "2026-07-02T20:06:15.764794+00:00"
+    "last_checked": "2026-07-04T10:59:24.868151+00:00"
   },
   "cebc10b717a77a2678bae455c9e2428b63a60810035eb087d3d007251a60a3b4": {
     "store": "Sam's Club",
@@ -1163,7 +1163,7 @@
       "robots",
       "no robots allowed"
     ],
-    "last_checked": "2026-07-02T20:06:15.764794+00:00"
+    "last_checked": "2026-07-04T10:59:24.868151+00:00"
   },
   "256514f212a75b798e8cfa1d91970be2cb1d2d3f27e1055b8432b244beb95fc2": {
     "store": "Target",
@@ -1174,7 +1174,7 @@
     "mode": "unknown",
     "reason": "No clear Pokemon content found.",
     "signals": [],
-    "last_checked": "2026-07-02T20:06:15.764794+00:00"
+    "last_checked": "2026-07-04T10:59:24.868151+00:00"
   },
   "01baed1cd1a69320de9ca2f4be9ce91777a09e9527abe99ca0e11ebb74b983f4": {
     "store": "Walmart",
@@ -1187,7 +1187,7 @@
     "signals": [
       "robot"
     ],
-    "last_checked": "2026-07-02T20:06:15.764794+00:00"
+    "last_checked": "2026-07-04T10:59:24.868151+00:00"
   },
   "53504eb96086531bc755f40ab2f85c1b10ea9ff929a2b4db5095651c54944452": {
     "store": "Costco",
@@ -1200,7 +1200,7 @@
     "signals": [
       "access denied"
     ],
-    "last_checked": "2026-07-02T20:06:15.764794+00:00"
+    "last_checked": "2026-07-04T10:59:24.868151+00:00"
   },
   "4cf7d83f8b9cc3361b9359d1a863483fa01b19b7b5b36844054721c111f8bbb6": {
     "store": "Sam's Club",
@@ -1215,7 +1215,7 @@
       "robots",
       "no robots allowed"
     ],
-    "last_checked": "2026-07-02T20:06:15.764794+00:00"
+    "last_checked": "2026-07-04T10:59:24.868151+00:00"
   },
   "2cad5ef82a36db3b586d06e5782c90b908db3c91eaf599d053cfa7e051adbb5d": {
     "store": "Target",
